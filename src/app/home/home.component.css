@@ -1,0 +1,32 @@
+#first_sec{
+    margin-top:2em;
+}
+
+#sec_two{
+    margin-top:2em;
+}
+#sec_three{
+     margin-top:2em;
+     background-color: white;
+}
+.main_text{
+    text-align: left;
+}
+.card_img{
+   width: 100%;
+text-align: center;
+}
+
+.card{
+    margin: auto;
+}
+
+.main_text{
+    width: 100%;
+}
+.text_title{
+    width: 100%;
+}
+.img_here{
+    width: 100%;
+}

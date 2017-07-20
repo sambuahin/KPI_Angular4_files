@@ -1,0 +1,15 @@
+<div class="form-container" id="toolbar">
+    <header [@fallIn]="state">
+    <div class="logout_btn">  <button (click)="logout()" class="basic-btn">Logout</button></div>
+    </header>
+
+    <div class="logd_as">Logged in as {{ name.auth.displayName }}</div>
+    <div id="page" [@moveInLeft]="state">
+      <h4>Hi {{ name.auth.displayName }}! Welcome to Tithing to grow in Christ</h4>
+
+ <a routerLink="/content">Content</a>
+  
+    </div>
+    
+</div>
+
