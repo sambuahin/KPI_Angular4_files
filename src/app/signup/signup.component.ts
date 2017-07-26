@@ -23,6 +23,7 @@ export class SignupComponent implements OnInit {
     if(formData.valid) {
       //console.log(formData.value);
       this.af.auth.createUser({
+        //name: formData.value.name,
         email: formData.value.email,
         password: formData.value.password
       }).then(

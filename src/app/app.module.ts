@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { Routes, RouterModule } from '@angular/router';
+
 import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +15,9 @@ import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
 import { ContentComponent } from './content/content.component';
 import { ContentMenuComponent } from './content-menu/content-menu.component';
+import { Day1Component } from './day1/day1.component';
+import { NavHeaderComponent } from './nav-header/nav-header.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -35,7 +40,10 @@ export const firebaseConfig = {
     SignupComponent,
     MembersComponent,
     ContentComponent,
-    ContentMenuComponent
+    ContentMenuComponent,
+    Day1Component,
+    NavHeaderComponent,
+    PageNotFoundComponent
 
   ],
   imports: [
@@ -43,7 +51,9 @@ export const firebaseConfig = {
     FormsModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    routes
+    routes,
+    RouterModule
+
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]

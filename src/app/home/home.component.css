@@ -1,14 +1,25 @@
 #first_sec{
-    margin-top:2em;
+    margin-top:0;
 }
 
 #sec_two{
-    margin-top:2em;
+    margin-top:3em;
 }
 #sec_three{
      margin-top:2em;
      background-color: white;
 }
+
+
+#sec_four{
+ margin-top:2em;
+}
+
+#sec_five{
+     margin-top:2em;
+     background-color: white;
+}
+
 .main_text{
     text-align: left;
 }
@@ -16,9 +27,21 @@
    width: 100%;
 text-align: center;
 }
+.card-img-top{
+    width: 180px;
+    margin: auto;
+}
 
 .card{
     margin: auto;
+    background-color: transparent;
+    border: 0px solid rgba(0,0,0,.125);
+
+}
+.card-title{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:#0078D7;
 }
 
 .main_text{
@@ -30,3 +53,54 @@ text-align: center;
 .img_here{
     width: 100%;
 }
+
+.big_front_img{
+border-radius: 5px;
+}
+
+#left_big_image{
+ position: relative; 
+}
+
+.text_overlay{
+    position: absolute; 
+   bottom: 10%; 
+   width: 100%;
+   left: 5%;
+font-size: 18px;
+color: white;
+right: 3%;
+}
+
+.small_front_img{
+    border-radius: 5px;
+}
+#row_top{
+padding-bottom: 30px;
+}
+#row_bot{
+
+}
+.center_text{
+    text-align: center;
+
+}
+.cover_all{
+    background-color: #0063B1;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+#last_top{
+  padding-bottom: 5px;
+}
+.footer_sec{
+    text-align: center;
+    padding: 20px 0 ;
+}
+
+
