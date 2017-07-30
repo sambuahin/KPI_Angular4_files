@@ -3,7 +3,7 @@
 }
 
 .navbar-light .navbar-brand {
-color: #1774c1;
+color: #1976D2;
 font-family: 'Lato', sans-serif;
 font-weight: bold;
 font-size: 18px;
@@ -14,7 +14,7 @@ navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
-    color: #333333;
+    color: #545454;
 }
 .navbar-brand {
     display: inline-block;
@@ -24,6 +24,19 @@ navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+}
+.bg-faded {
+    background-color: white;
+    }
+
+    .navbar {
+    /*overflow: hidden;*/
+     z-index: 99;
+    position: fixed; 
+    width: 100%; 
+    /* Set the navbar to fixed position */
+   /* top: 0; /* Position the navbar at the top of the page */
+    /* Full width */
 }
 /*
 colors

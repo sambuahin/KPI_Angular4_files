@@ -12,6 +12,9 @@ font-family: 'Cairo', sans-serif;
 font-family: 'Passion One', cursive;
 
 */
+.row{margin: auto;
+max-width: 100%;}
+
 html{
     font-family: 'Lato', sans-serif;
     background-color: #F0F7FA;
@@ -26,6 +29,8 @@ body {
 .container{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 95%;
+    margin: auto;
     /*background-color: #F0F7FA;*/
 }
 
