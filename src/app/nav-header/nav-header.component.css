@@ -1,3 +1,36 @@
 .navbar-brand{
-    height: 70px;
+    height: 60px;
 }
+
+.navbar-light .navbar-brand {
+color: #1774c1;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+font-size: 18px;
+
+}
+navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.10), 0 6px 10px 0 rgba(0,0,0,.10), 0 1px 18px 0 rgba(0,0,0,.10);
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #333333;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.1rem;
+    padding-bottom: .59rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+/*
+colors
+orange: #FFC107
+green: #4CAF50
+blue: #2196F3
+
+font-family: 'Cairo', sans-serif;
+
+*/

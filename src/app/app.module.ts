@@ -18,6 +18,9 @@ import { ContentMenuComponent } from './content-menu/content-menu.component';
 import { Day1Component } from './day1/day1.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { DonationsComponent } from './donations/donations.component';
 
 
 
@@ -43,7 +46,10 @@ export const firebaseConfig = {
     ContentMenuComponent,
     Day1Component,
     NavHeaderComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AboutUsComponent,
+    FaqsComponent,
+    DonationsComponent
 
   ],
   imports: [

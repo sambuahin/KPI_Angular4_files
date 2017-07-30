@@ -11,6 +11,11 @@ import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { ContentMenuComponent } from './content-menu/content-menu.component';
 import { Day1Component } from './day1/day1.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { DonationsComponent } from './donations/donations.component';
+
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 
 export const router: Routes = [
@@ -23,7 +28,11 @@ export const router: Routes = [
     { path: 'content', component: ContentComponent, canActivate: [AuthGuard] },
     { path: 'content-menu', component: ContentMenuComponent, canActivate: [AuthGuard] },
     { path: 'day1', component: Day1Component, canActivate: [AuthGuard] },
-    { path: 'nav-header', component: NavHeaderComponent, canActivate: [AuthGuard] }
+    { path: 'about_us', component: AboutUsComponent },
+    { path: 'faqs', component: FaqsComponent },
+    { path: 'nav-header', component: NavHeaderComponent, canActivate: [AuthGuard] },
+    { path: 'donations', component: DonationsComponent },
+    { path: '**', component: PageNotFoundComponent }
   
 
 ]

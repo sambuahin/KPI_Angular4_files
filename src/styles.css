@@ -1,10 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+colors
+orange: #FFC107
+green: #4CAF50
+500 blue: #2196F3
+700 blue: #1976D2
+500 red : #F44336
+700 red : #D32F2F
+font-family: 'Cairo', sans-serif;
+font-family: 'Passion One', cursive;
+
+*/
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: #F0F7FA;
+}
+
 body {
     background:#E2E4E6;
     padding-top:0px;
+    font-family: 'Lato', sans-serif;
+    color: #545454;
 }
 .container{
-    padding-top: 2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*background-color: #F0F7FA;*/
 }
 
 .form-container {
