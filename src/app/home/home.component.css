@@ -1,6 +1,13 @@
 
-
-
+.frnt_images{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+.col-sm-6 > .sm_img{
+    width: 311px;
+    padding: 6px;
+}
 .sm_btn{
     left: 0;
     width: 200px;
@@ -14,8 +21,18 @@
 
 #first_sec{
     margin-top:0;
-    padding: 1rem 0 3rem;
+    padding: 0;
     background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#first_sec_1{
+    margin-top:0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .img_left_align{
@@ -73,26 +90,7 @@ background: linear-gradient(#ffffff, #BBDEFB);/*#D6EFFA);*/
 .main_text{
     text-align: left;
 }
-.card_img{
-   width: 100%;
-text-align: center;
-}
-.card-img-top{
-    width: 180px;
-    margin: auto;
-}
 
-.card{
-    margin: auto;
-    background-color: transparent;
-    border: 0px solid rgba(0,0,0,.125);
-
-}
-.card-title{
-        font-size: 1.2rem;
-        font-weight: 600;
-        color:#0078D7;
-}
 
 .main_text{
     width: 100%;
@@ -108,8 +106,21 @@ text-align: center;
 border-radius: 5px;
 }
 
-#left_big_image{
- position: relative; 
+#sm-img.col-sm-6{
+    width: inherit;
+}
+#sm-img1, #sm-img2, #sm-img3{
+   
+}
+
+#left_big_image , #right_images{
+ /*position: relative; */
+ width: 100%;
+ margin: auto;
+ flex: 1 1 0%;
+ flex-flow: column nowrap;
+ align-items: stretch;
+padding: 6px;
 }
 
 .text_overlay{
@@ -124,14 +135,20 @@ border-radius: 5px;
     padding: 0 0.9rem;
 }
 
-text_overlay span{
-    background-color: yellow;
+.text_overlay span{
+   
 }
 .small_front_img{
     border-radius: 5px;
+        margin: auto;
+        width: 100%;
+       
 }
 #row_top{
-padding-bottom: 30px;
+
+}
+#row_bot{
+
 }
 
 .center_text{
@@ -149,16 +166,7 @@ padding-bottom: 30px;
     color: #0063B1;
 }
 
-.footer_sec{
-    text-align: center;
-    padding: 15px 0 ;
-}
 
-.footer_sec1{
-    background-color: #1976D2;
-    margin: auto;
-    color: #ffffff;
-}
 .outer {
     display: table;
    height: 100%;
@@ -207,6 +215,7 @@ color: #4CAF50;
   position: relative;
   overflow: hidden;
   z-index: 0;
+  background-size: cover;
 }
 
 .module1 > .text_over {
@@ -223,6 +232,7 @@ color: #4CAF50;
     float: left;
     margin-left: 2rem;
     z-index: 2;
+       font-size: 3.2rem;
 
 }
 .white_bg{
@@ -252,4 +262,71 @@ color: #4CAF50;
     width: 50%;
     margin: auto;
     padding-bottom:1rem;
+}
+.five_per{
+    font-size: 3.2rem;
+}
+
+
+
+ .ln>.d-block{width: 100%;}
+ 
+.small_front_img{
+     width: 100%;
+     border-radius: 10px;
+ }
+
+
+
+.text_overlay{
+    position: absolute;
+    bottom: 6%;
+    width: 90%;  
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 0 0.9rem;
+}
+
+.text_overlay >span{
+   background-color: rgba(0,0,0,.6);
+   padding: 2px 5px;
+   border-radius: 5px;
+}
+.carousel-caption >h3 {
+     font-family: 'Passion One', cursive!important;
+font-size: 56px!important;
+}
+ .carousel-caption >h3 >span {
+    font-size: 92px!important;
+  letter-spacing: 3px;
+}
+
+ .carousel-caption >p{
+    font-size: 32px!important;
+}
+
+
+ .carousel-caption{
+    bottom: 10%!important;
+}
+
+.ln{
+    color:#ffffff;
+    bottom: 10%!important;
+    text-decoration: none;
+    width: 100%;
+}
+.ln >p{
+    font-size: 32px!important;
+}
+.ln >h3 >span {
+    font-size: 92px!important;
+  letter-spacing: 3px;
+}
+.ln >h3 {
+     font-family: 'Passion One', cursive!important;
+font-size: 56px!important;
 }

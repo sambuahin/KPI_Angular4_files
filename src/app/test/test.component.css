@@ -1,0 +1,49 @@
+
+
+ .d-block {width: 100%;}
+ 
+.small_front_img{
+     width: 100%;
+     border-radius: 10px;
+ }
+
+
+
+.text_overlay{
+    position: absolute;
+    bottom: 6%;
+    width: 90%;  
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 0 0.9rem;
+}
+
+.text_overlay >span{
+   background-color: rgba(0,0,0,.6);
+   padding: 2px 5px;
+   border-radius: 5px;
+}
+.carousel-caption >h3{
+     font-family: 'Passion One', cursive;
+font-size: 72px;
+}
+.carousel-caption >h3 >span{
+
+    font-size: 86px;
+    letter-spacing: 3px;
+}
+
+.carousel-caption >p{
+    font-size: 36px;
+}
+h3 span{
+  font-size: 82px;
+}  
+
+
+.carousel-caption{
+    bottom: 10%;
+}

@@ -10,9 +10,16 @@ import { Router } from '@angular/router';
   //host: {'[@moveIn]': ''}
 })
 export class HomeComponent implements OnInit {
+ 
 
-  constructor() { }
+  constructor(private router: Router) { }
 
+five_chrst_per(){
+  this.router.navigate(['five_christain_persuasions']);
+}
+abraham_factor(){
+  this.router.navigate(['abraham_factor'])
+}
   ngOnInit() {
   }
 

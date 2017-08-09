@@ -21,6 +21,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { DonationsComponent } from './donations/donations.component';
+import { FiveChristianPersuasionsComponent } from './five-christian-persuasions/five-christian-persuasions.component';
+import { FooterComponent } from './footer/footer.component';
+import { TestComponent } from './test/test.component';
+import { TheAbrahamFactorComponent } from './the-abraham-factor/the-abraham-factor.component';
+import { TheGodFactorComponent } from './the-god-factor/the-god-factor.component';
+import { TheGrowthFactorComponent } from './the-growth-factor/the-growth-factor.component';
+import { HowIGrowInComponent } from './how-i-grow-in/how-i-grow-in.component';
 
 
 
@@ -49,7 +56,14 @@ export const firebaseConfig = {
     PageNotFoundComponent,
     AboutUsComponent,
     FaqsComponent,
-    DonationsComponent
+    DonationsComponent,
+    FiveChristianPersuasionsComponent,
+    FooterComponent,
+    TestComponent,
+    TheAbrahamFactorComponent,
+    TheGodFactorComponent,
+    TheGrowthFactorComponent,
+    HowIGrowInComponent
 
   ],
   imports: [

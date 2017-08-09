@@ -1,0 +1,15 @@
+.footer_sec{
+    text-align: center;
+    padding: 15px 0 ;
+}
+
+.footer_sec1{
+    background-color: #1976D2;
+    margin: auto;
+    color: #ffffff;
+}
+.row_foot{
+    width: 50%;
+    margin: auto;
+    padding-bottom:1rem;
+}
