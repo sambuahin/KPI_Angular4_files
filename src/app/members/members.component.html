@@ -1,15 +1,23 @@
-<div class="form-container" id="toolbar">
-    <header [@fallIn]="state">
-    <div class="logout_btn">  <button (click)="logout()" class="basic-btn">Logout</button></div>
-    </header>
+<section class="first">
 
-    <div class="logd_as">Logged in as {{ name.auth.displayName }}</div>
-    <div id="page" [@moveInLeft]="state">
-      <h4>Hi {{ name.auth.displayName }}! Welcome to Tithing to grow in Christ</h4>
+<div class="container">
+    <div class="row">  
+  <div class="col-md-8"><h4>Welcome to Tithing to grow in Christ</h4>
+</div>
+<div class="col-md-3">  <div class="logd_as">Logged in as {{ name.auth.email }}</div></div>
+  <div class="col-md-1"><a (click)="logout()" class="bas_btn"><span>| Logout</span></a></div>
+   </div>
+</div>
+</section>
 
- <a routerLink="/content">Content</a>
+<section class="sec">
+<div class="container">
+<div class="row">  <div class="col-md-12">
+    <a routerLink="/content">Begin 6 Day course</a>
+    </div> </div>
+
   
-    </div>
-    
+
 </div>
 
+</section>

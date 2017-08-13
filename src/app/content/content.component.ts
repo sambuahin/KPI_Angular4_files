@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
 import { Router } from '@angular/router';
+import { moveIn, fallIn } from '../router.animations';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css'],
+    animations: [moveIn(), fallIn()]
 })
 export class ContentComponent implements OnInit {
 name: any;
@@ -23,7 +25,7 @@ name: any;
   }
     logout() {
      this.af.auth.logout();
-     this.router.navigateByUrl('/login');
+     this.router.navigateByUrl('/email_auth');
   }
 
 }

@@ -1,49 +1,142 @@
-
-
- .d-block {width: 100%;}
+ .sidebar {
+    
+    
+    position: fixed;
+     width: 70%;
+     height: 100%;    
+    
  
-.small_front_img{
-     width: 100%;
-     border-radius: 10px;
  }
+ .content {
+  
 
 
+  
+ height: 600px;
+     width: 30%;
+     position: relative;
+    
+     overflow: auto;
+     z-index: 1;
 
-.text_overlay{
-    position: absolute;
-    bottom: 6%;
-    width: 90%;  
-    font-size: 20px;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 0 0.9rem;
+     
+ }
+ 
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One');
+
+.first{
+    background-color: #ffffff;
 }
 
-.text_overlay >span{
-   background-color: rgba(0,0,0,.6);
-   padding: 2px 5px;
-   border-radius: 5px;
+.bas_btn {
+  font-size: inherit;
+    margin:0;
+    text-align: right;
 }
-.carousel-caption >h3{
-     font-family: 'Passion One', cursive;
-font-size: 72px;
-}
-.carousel-caption >h3 >span{
-
-    font-size: 86px;
-    letter-spacing: 3px;
+.bas_btn span{
+  
 }
 
-.carousel-caption >p{
-    font-size: 36px;
+.logd_as{
+    text-align: right;
 }
-h3 span{
-  font-size: 82px;
-}  
+#accordian, .bd-example{
+    overflow-y: scroll!important;
+    width: 100%;
+    /*height: 100%;*/
+    height: 650px;
+}
+a, a:hover, a:focus{outline:none; text-decoration:none;}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    padding: 0.3em;
+}
+
+.members_cont{
+    width: 100%;
+}
+.members_sec{
+    padding: 2rem 3rem 2rem;
+    margin: auto;
+    width: 100%;
+}
+h2{float:left; width:100%; color:#fff; margin-bottom:30px; font-size: 14px;}
+h2 span{font-family: 'Kumar One', cursive; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px;}
+h2 a{color:#fff; font-weight:bold;}
 
 
-.carousel-caption{
-    bottom: 10%;
+.card {
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom:1px;
+    border:none;
 }
+.card-header:first-child {
+    border-radius: 0;
+}
+.card-header {
+    background-color: #f7f7f9;
+    margin-bottom: 0;
+    padding: 1rem;
+    border:none;
+    
+    
+}
+.card-header a i{
+    float:left;
+    font-size:25px;
+    padding:5px 0;
+    margin:0 25px 0 0px;
+    color:#195C9D;
+}
+.card-header i{
+    float:right;        
+    font-size:30px;
+    width:1%;
+    margin-top:8px;
+    margin-right:10px;
+}
+.card-header a{
+    width:97%;
+    float:left;
+    color:#565656;
+}
+.card-header p{
+    margin:0;
+}
+
+.card-header h3{
+    margin:0 0 0px;
+    font-size:20px;
+    font-family: 'Slabo 27px', serif;
+    font-weight:bold;
+    color:#3fc199;
+    
+}
+.card-block {
+    -moz-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 20px;
+    color:#232323;
+    box-shadow:inset 0px 4px 5px rgba(0,0,0,0.1);
+    border-top:1px soild #000;
+    border-radius:0;
+}
+
+.list-group-item {
+    font-size: 14px;
+}
+

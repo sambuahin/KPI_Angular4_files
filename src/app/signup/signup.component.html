@@ -1,18 +1,68 @@
-<div class="form-container">
-  <a routerLink="/login" id="goback">Go back</a>
-
-  <h2>Join now</h2>
-
-  <span class="error" *ngIf="error" [@fallIn]='state'>{{ error }}</span>
+<div class="container">
+  <a routerLink="/email_auth" id="goback">Go back</a>
+  <span class="error" *ngIf="error" >{{ error }}</span>
     
-  <form #formData='ngForm' (ngSubmit)="onSubmit(formData)">
+  <!--form #formData='ngForm' (ngSubmit)="onSubmit(formData)"-->
 
     <!--input type="text" placeholder="First Name.." (ngModel)="name" name="name" class="txt" required-->
-    Email
+   <!-- Email
     <input type="text" placeholder="Email address.." (ngModel)="email" name="email" class="txt" required>
     Password
     <input type="password" placeholder="Password" (ngModel)="password" name="password" class="txt" required>
 
     <button type="submit" [disabled]="!formData.valid" class="basic-btn">Create my account</button>
-  </form>
+  </form>-->
+
+   <form class="form-horizontal" role="form" #formData='ngForm' (ngSubmit)="onSubmit(formData)">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="Cre">
+                    <h3>Please Create and account</h3>
+                    <hr></div>
+                     <span class="error" *ngIf="error">{{ error }}</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="form-group has-danger">
+                        <label class="sr-only" for="email">E-Mail Address</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+                            <input type="text" name="email" class="form-control" id="email"
+                                   placeholder="Your email address here" (ngModel)="email" required autofocus>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="sr-only" for="password">Password</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+                            <input type="password" name="password" class="form-control" id="password"
+                                   placeholder="Your password here" (ngModel)="password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+  
+            <div class="row" style="padding-top: 1rem">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-success" [disabled]="!formData.valid"><i class="fa fa-sign-in"></i> Create my account</button>
+                         <a routerLink="/email_auth" class="alc">Already have an account? Login</a>     
+                   
+                </div>
+                
+            </div>
+
+     
+        </form>
 </div>
