@@ -38,6 +38,14 @@ navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
    /* top: 0; /* Position the navbar at the top of the page */
     /* Full width */
 }
+
+.navbar-light .navbar-toggler {
+     border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+margin-left: 90%;
+}
 /*
 colors
 orange: #FFC107

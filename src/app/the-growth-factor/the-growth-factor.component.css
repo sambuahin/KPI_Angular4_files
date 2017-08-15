@@ -1,11 +1,13 @@
 .module1 {
   width: 100%;
-  height: 200px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   z-index: 0;
-  background-color: #4CAF50;/*#2196F3;*/
+  background-size: cover;
 }
+
+
 .inner1{
     margin: auto;
     width: 60%;
@@ -28,20 +30,14 @@
     display: table-cell;
     vertical-align: middle;
 }
+
 .module1:before{
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
+  background: rgba(0,0,0,.6);
   z-index: -2;
-}
-
-.module1 {
-  width: 100%;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
 }
 
 .module1 > .text_over {

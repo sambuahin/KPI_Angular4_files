@@ -44,6 +44,8 @@ import { Day32Component } from './day3-2/day3-2.component';
 import { Day33Component } from './day3-3/day3-3.component';
 import { Day34Component } from './day3-4/day3-4.component';
 import { Day35Component } from './day3-5/day3-5.component';
+import { Day1DonateComponent } from './day1-donate/day1-donate.component';
+import { Day1actsComponent } from './day1acts/day1acts.component';
 
 
 
@@ -67,8 +69,8 @@ export const router: Routes = [
           { path: 'day1_3', component: Day13Component},  
           { path: 'day1_4', component: Day14Component},  
           { path: 'day1_5', component: Day15Component},      
-          { path: 'dayDonations', component: DayDonationsComponent},
-          { path: 'acts', component: ACTsComponent} ,
+          { path: 'day1Donate', component: Day1DonateComponent},
+          { path: 'day1acts', component: Day1actsComponent} ,
 
           { path: 'day2', component: Day2Component } ,
           { path: 'day2_1', component: Day21Component},   
@@ -86,7 +88,7 @@ export const router: Routes = [
         ]
 
  },
-    { path: 'content-menu', component: ContentMenuComponent, canActivate: [AuthGuard] },
+    //{ path: 'content-menu', component: ContentMenuComponent, canActivate: [AuthGuard] },
     { path: 'about_us', component: AboutUsComponent },
     { path: 'faqs', component: FaqsComponent },
     { path: 'test', component: TestComponent },

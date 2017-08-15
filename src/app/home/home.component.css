@@ -1,3 +1,18 @@
+.oval_pic{
+    border-radius: 125px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.chart_image{
+    text-align: center;
+}
+.container_1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 55%;
+    margin: auto;}
 
 .frnt_images{
     margin-right: auto;
@@ -63,6 +78,10 @@
 
 .sec_two_text_2{
       padding: 1rem 1rem 0 0;
+}
+.sec_two_text_3{
+ padding: 1rem 0 0 0;
+ text-align: left;
 }
 #sec_three{
     padding: 2rem 0 0;
@@ -200,6 +219,13 @@ color: #4CAF50;
     font-family: 'Passion One', cursive;
     margin: 0;
     color: #1976D2;
+}
+
+.bib_text_1{
+        font-family: 'Passion One', cursive;
+    margin: 0;
+    color: #1976D2;
+    text-align: justify;
 }
 .cover_bot{
     padding: 2rem 1rem;

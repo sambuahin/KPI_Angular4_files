@@ -15,6 +15,7 @@ font-family: 'Ubuntu', sans-serif;
 
 
 */
+
 .row{margin: auto;
 max-width: 100%;}
 
@@ -98,18 +99,21 @@ h2 {
 
 
 .loading {
-  width: 30px;
-  height: 30px;
-  border: 5px solid #ccc;
+  width: 120px;
+  height: 120px;
+ 
   position: fixed;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -60px;
   top: 50%;
-  margin-top: -20px;
-  border-radius: 50%;
+  margin-top: -60px;
+  
 }
 
-
+.ttt{
+    background-color: #ffffff;
+}
+/*
 .loading:after {
   content: '';
   position: absolute;
@@ -126,11 +130,11 @@ h2 {
     transform: rotate(360deg);
   }
 }
-
+*/
 
 @media (max-width: 600px) {
     body {
-        padding-top:1.2em;
+      /*  padding-top:1.2em;*/
     }
 
     .form-container {

@@ -3,8 +3,21 @@
   height: inherit;
   position: relative;
   height: 500px;
- /*#2196F3;*/
+  z-index: 0;
+  background-size: cover;
+  border-radius: 10px;
 }
+
+.module1:before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.6);
+  z-index: -2;
+  border-radius: 10px;
+}
+
 .inner1{
     margin: auto;
     width: 60%;
@@ -90,6 +103,26 @@ background-color: #ffffff;
       widows: 7%;
       margin: auto;
   }
+  .direct{
+      padding-top: 1rem;
+      width: 100%;
+  }
+  .next{
+      float: right;
+  }
+
+.btn-primary{
+        box-shadow: 2px 2px 11px #333333;
+        }
+
+.sm_btn{
+    left: 0;
+    width: 200px;
+    padding-top: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
 
   /*
   @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

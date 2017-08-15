@@ -51,6 +51,8 @@ import { Day32Component } from './day3-2/day3-2.component';
 import { Day33Component } from './day3-3/day3-3.component';
 import { Day34Component } from './day3-4/day3-4.component';
 import { Day35Component } from './day3-5/day3-5.component';
+import { Day1DonateComponent } from './day1-donate/day1-donate.component';
+import { Day1actsComponent } from './day1acts/day1acts.component';
 
 
 
@@ -109,7 +111,9 @@ export const firebaseConfig = {
     Day32Component,
     Day33Component,
     Day34Component,
-    Day35Component
+    Day35Component,
+    Day1DonateComponent,
+    Day1actsComponent
 
   ],
   imports: [
