@@ -9,6 +9,25 @@
 #left_side{
     width: 30%;
 }*/
+/*
+.outer {
+width: 100%;
+    height:400px;
+    overflow:hidden;
+}
+
+.leftcol {
+   
+}
+
+.rightcol {
+
+    overflow:scroll;
+    height:1000px; /* I WANT THIS BUT DYNAMICALLY CHANGES W/ .OUTER *//*
+}
+*/
+
+
 .navbar, .bg-faded, .footer_sec1,.footer_sec{display: none!important;}
 .page_spacer{padding-top: 0!important;}
 
@@ -63,7 +82,7 @@ button {
    
 }
 .members_sec{
-       padding: 2rem 3rem;
+       /*padding: 2rem 3rem;*/
 
    /* margin: auto;*/
     width: 100%;

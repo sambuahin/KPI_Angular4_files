@@ -52,7 +52,29 @@ import { Day33Component } from './day3-3/day3-3.component';
 import { Day34Component } from './day3-4/day3-4.component';
 import { Day35Component } from './day3-5/day3-5.component';
 import { Day1DonateComponent } from './day1-donate/day1-donate.component';
-import { Day1actsComponent } from './day1acts/day1acts.component';
+import { Day2DonateComponent } from './day2-donate/day2-donate.component';
+import { Day3DonateComponent } from './day3-donate/day3-donate.component';
+import { Day4Component } from './day4/day4.component';
+import { Day41Component } from './day4-1/day4-1.component';
+import { Day42Component } from './day4-2/day4-2.component';
+import { Day43Component } from './day4-3/day4-3.component';
+import { Day44Component } from './day4-4/day4-4.component';
+import { Day45Component } from './day4-5/day4-5.component';
+import { Day46Component } from './day4-6/day4-6.component';
+import { Day5Component } from './day5/day5.component';
+import { Day51Component } from './day5-1/day5-1.component';
+import { Day52Component } from './day5-2/day5-2.component';
+import { Day53Component } from './day5-3/day5-3.component';
+import { Day54Component } from './day5-4/day5-4.component';
+import { Day55Component } from './day5-5/day5-5.component';
+import { Day56Component } from './day5-6/day5-6.component';
+import { Day6Component } from './day6/day6.component';
+import { Day61Component } from './day6-1/day6-1.component';
+import { Day62Component } from './day6-2/day6-2.component';
+import { Day63Component } from './day6-3/day6-3.component';
+import { Day64Component } from './day6-4/day6-4.component';
+import { Day65Component } from './day6-5/day6-5.component';
+import { Day66Component } from './day6-6/day6-6.component';
 
 
 
@@ -113,7 +135,29 @@ export const firebaseConfig = {
     Day34Component,
     Day35Component,
     Day1DonateComponent,
-    Day1actsComponent
+    Day2DonateComponent,
+    Day3DonateComponent,
+    Day4Component,
+    Day41Component,
+    Day42Component,
+    Day43Component,
+    Day44Component,
+    Day45Component,
+    Day46Component,
+    Day5Component,
+    Day51Component,
+    Day52Component,
+    Day53Component,
+    Day54Component,
+    Day55Component,
+    Day56Component,
+    Day6Component,
+    Day61Component,
+    Day62Component,
+    Day63Component,
+    Day64Component,
+    Day65Component,
+    Day66Component
 
   ],
   imports: [

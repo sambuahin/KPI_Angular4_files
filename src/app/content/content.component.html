@@ -11,7 +11,7 @@
 </div>
 </section>
  <section class="members_sec" [@fallIn]='state'>
-
+<div class="container">
 
   <div class="row">
 
@@ -72,7 +72,7 @@
                   <li class="list-group-item">  <a [routerLink]="['day2_2']">The spiritual matter</a></li>
                    <li class="list-group-item">  <a [routerLink]="['day2_3']">The importance of spiritual matter</a></li>
                     <li class="list-group-item">  <a [routerLink]="['day2_4']">Spiritual impartation</a></li>
-                     <li class="list-group-item">  <a [routerLink]="['dayDonations']">Donation</a></li>
+                     <li class="list-group-item">  <a [routerLink]="['day2Donate']">Donation</a></li>
                       <li class="list-group-item">  <a [routerLink]="['day2_5']">Test yourself</a></li>
                        <li class="list-group-item">  <a [routerLink]="['acts']">ACTS</a></li>
                 </ul>
@@ -98,7 +98,7 @@
                   <li class="list-group-item"><a [routerLink]="['day3_2']">The spiritual matter</a></li>
                    <li class="list-group-item"><a [routerLink]="['day3_3']">The importance of spiritual matter</a></li>
                     <li class="list-group-item"><a [routerLink]="['day3_4']">Spiritual impartation</a></li>
-                     <li class="list-group-item"><a [routerLink]="['dayDonations']">Donation</a></li>
+                     <li class="list-group-item"><a [routerLink]="['day3Donate']">Donation</a></li>
                       <li class="list-group-item"><a [routerLink]="['day3_5']">Test yourself</a></li>
                        <li class="list-group-item"><a [routerLink]="['acts']">ACTS</a></li>
                 </ul>
@@ -106,7 +106,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
+            <div class="card-header" role="tab" id="headingFour" [routerLink]="['day4']">
               <div class="mb-0">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseOne"
                   class="collapsed">
@@ -118,22 +118,22 @@
               </div>
             </div>
 
-            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="">
               <div class="card-block">
                 <ul class="list-group">
-                  <li class="list-group-item">Talking to God concernign His church</li>
-                  <li class="list-group-item">The spiritual matter</li>
-                   <li class="list-group-item">The importance of spiritual matter</li>
-                    <li class="list-group-item">Spiritual impartation</li>
-                     <li class="list-group-item">Donation</li>
-                      <li class="list-group-item">Test yourself</li>
-                       <li class="list-group-item">ACTS</li>
+                  <li class="list-group-item"><a [routerLink]="['day4_1']">Talking to God concernign His church</a></li>
+                  <li class="list-group-item"><a [routerLink]="['day4_2']">The spiritual matter</a></li>
+                   <li class="list-group-item"><a [routerLink]="['day4_3']">The importance of spiritual matter</a></li>
+                    <li class="list-group-item"><a [routerLink]="['day4_4']">Spiritual impartation</a></li>
+                     <li class="list-group-item"><a [routerLink]="['day4_5']">Donation</a></li>
+                      <li class="list-group-item"><a [routerLink]="['day4_6']">Test yourself</a></li>
+                       <li class="list-group-item"><a [routerLink]="['acts']">ACTS</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
+            <div class="card-header" role="tab" id="headingFive" [routerLink]="['day5']">
               <div class="mb-0">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseOne"
                   class="collapsed">
@@ -144,16 +144,16 @@
                 <!--i class="fa fa-angle-right" aria-hidden="true"></i-->
               </div>
             </div>
-            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
+            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false">
               <div class="card-block">
                 <ul class="list-group">
-                  <li class="list-group-item">Dedicating your life to God</li>
-                  <li class="list-group-item">The spiritual matter</li>
-                   <li class="list-group-item">The importance of spiritual matter</li>
-                    <li class="list-group-item">Spiritual impartation</li>
-                     <li class="list-group-item">Donation</li>
-                      <li class="list-group-item">Test yourself</li>
-                       <li class="list-group-item">ACTS</li>
+                  <li class="list-group-item"><a [routerLink]="['day5_1']">Dedicating your life to God</a></li>
+                  <li class="list-group-item"><a [routerLink]="['day5_2']">The spiritual matter</a></li>
+                   <li class="list-group-item"><a [routerLink]="['day5_3']">The importance of spiritual matter</a></li>
+                    <li class="list-group-item"><a [routerLink]="['day5_4']">Spiritual impartation</a></li>
+                     <li class="list-group-item"><a [routerLink]="['day5_5']">Donation</a></li>
+                      <li class="list-group-item"><a [routerLink]="['day5_6']">Test yourself</a></li>
+                       <li class="list-group-item"><a [routerLink]="['acts']">ACTS</a></li>
                 </ul>
               </div>
             </div>
@@ -161,7 +161,7 @@
        
 
         <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
+            <div class="card-header" role="tab" id="headingSix" [routerLink]="['day6']">
               <div class="mb-0">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseOne"
                   class="collapsed">
@@ -172,16 +172,16 @@
                 <!--i class="fa fa-angle-right" aria-hidden="true"></i-->
               </div>
             </div>
-            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
+            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" aria-expanded="false">
               <div class="card-block">
                 <ul class="list-group">
-                  <li class="list-group-item">Setting aside your tithe to God</li>
-                  <li class="list-group-item">The spiritual matter</li>
-                   <li class="list-group-item">The importance of spiritual matter</li>
-                    <li class="list-group-item">Spiritual impartation</li>
-                     <li class="list-group-item">Donation</li>
-                      <li class="list-group-item">Test yourself</li>
-                       <li class="list-group-item">ACTS</li>
+                  <li class="list-group-item"><a [routerLink]="['day6_1']">Setting aside your tithe to God</a></li>
+                  <li class="list-group-item"><a [routerLink]="['day6_2']">The spiritual matter</a></li>
+                   <li class="list-group-item"><a [routerLink]="['day6_3']">The Church Tithing Creed</a></li>
+                    <li class="list-group-item"><a [routerLink]="['day6_4']">To God be The Glory</a></li>
+                     <li class="list-group-item"><a [routerLink]="['day6_5']">A Fact to Remember</a></li>
+                      <li class="list-group-item"><a [routerLink]="['day6_6']">Donation</a></li>
+                       <li class="list-group-item"><a [routerLink]="['acts']">ACTS</a></li>
                 </ul>
               </div>
             </div>
@@ -191,12 +191,11 @@
 <!--accordian ends-->
     </div>
     <div class="col-md-8" id="rightSide"><div class="members_cont"> 
-      <!--main content here-->
-      <!--a [routerLink]="['content/day1']">Day 1</a-->
-      <!--app-day1></app-->
+   
 <router-outlet></router-outlet>
       </div>
       </div>
+  </div>
   </div>
  </section>
 
