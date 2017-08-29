@@ -28,6 +28,7 @@ body {
     background:#E2E4E6;
     padding-top:0px;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
     color: #545454;
 }
 .container{
@@ -131,6 +132,40 @@ h2 {
   }
 }
 */
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+	#first_sec{width: 100%;
+    padding: 0.2rem;
+    margin: auto;}
+
+    .img_here{
+    width: 315px;
+    height: 180px;
+    position: relative;
+}	
+
+.small_image{
+    padding: 2rem;
+}
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) 
+{
+#first_sec{display:none;}
+.img_here{
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.small_image{
+    padding: 2rem;
+}
+
+
+}
+
 
 @media (max-width: 600px) {
     body {
@@ -145,4 +180,8 @@ h2 {
     button {
         font-size:1em;
     }
+.small_image{
+    padding: 2rem;
+}
+
 }

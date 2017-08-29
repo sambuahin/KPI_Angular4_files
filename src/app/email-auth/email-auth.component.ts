@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
 import { Router } from '@angular/router';
+import { moveIn, fallIn } from '../router.animations';
 
 
 @Component({
   selector: 'app-email-auth',
   templateUrl: './email-auth.component.html',
-  styleUrls: ['./email-auth.component.css']
+  styleUrls: ['./email-auth.component.css'],
+   animations: [moveIn(), fallIn()]
 })
 export class EmailAuthComponent implements OnInit {
     state: string = '';
@@ -18,6 +20,12 @@ export class EmailAuthComponent implements OnInit {
           this.router.navigateByUrl('/members');
         }
       });
+  }
+   resetpassword()
+  {
+    //console.log('reset password button');
+    // send to componet reset password
+    this.router.navigate(['/reset_password']);
   }
 
 onSubmit(formData) {

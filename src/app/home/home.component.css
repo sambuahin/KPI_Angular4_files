@@ -118,7 +118,9 @@ background: linear-gradient(#ffffff, #BBDEFB);/*#D6EFFA);*/
     width: 100%;
 }
 .img_here{
-    width: 100%;
+    width: 560px;
+    height: 315px;;
+    position: relative;
 }
 
 .big_front_img{
@@ -157,8 +159,9 @@ padding: 6px;
 .text_overlay span{
    
 }
+
 .small_front_img{
-    border-radius: 5px;
+    border-radius: 10px;
         margin: auto;
         width: 100%;
        
@@ -204,7 +207,7 @@ padding: 6px;
 }
 .your_tithing{
     font-family: 'Passion One', cursive;
-font-size: 48px;
+font-size: 58px;
 color: #4CAF50;
 }
 .center_text span{
@@ -225,7 +228,7 @@ color: #4CAF50;
         font-family: 'Passion One', cursive;
     margin: 0;
     color: #1976D2;
-    text-align: justify;
+    text-align: center;
 }
 .cover_bot{
     padding: 2rem 1rem;
@@ -297,10 +300,7 @@ color: #4CAF50;
 
  .ln>.d-block{width: 100%;}
  
-.small_front_img{
-     width: 100%;
-     border-radius: 10px;
- }
+
 
 
 
@@ -355,4 +355,7 @@ font-size: 56px!important;
 .ln >h3 {
      font-family: 'Passion One', cursive!important;
 font-size: 56px!important;
+}
+.blue_bg{
+    background-color: #BBDEFB;
 }

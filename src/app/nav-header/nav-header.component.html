@@ -1,4 +1,4 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top">
+<nav class="navbar navbar-toggleable-md nav-pills navbar-light bg-faded navbar-fixed-top">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -6,8 +6,11 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-      <li class="nav-item active">
+      <!--li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> 
+      </li-->
+      <li class="nav-item">
+        <a class="nav-link active" href="/members"><span>Free Devotional</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about_us">About Us</a>
@@ -18,8 +21,11 @@
       <li class="nav-item">
         <a class="nav-link" href="/donations">Donations</a>
       </li>
-      <li class="nav-item">
+      <!--li class="nav-item">
         <a class="nav-link" href="/email_auth">Sign-in/Sign-up</a>
+      </li-->
+      <li>
+        <a class="nav-link lg" (click)="handleLoginLogoutLink()">{{ loginLogoutLink }}</a>
       </li>
     </ul>
    

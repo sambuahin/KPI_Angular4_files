@@ -68,10 +68,7 @@ import { Day63Component } from './day6-3/day6-3.component';
 import { Day64Component } from './day6-4/day6-4.component';
 import { Day65Component } from './day6-5/day6-5.component';
 import { Day66Component } from './day6-6/day6-6.component';
-
-
-
-
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 
 import { NavHeaderComponent } from './nav-header/nav-header.component';
@@ -79,6 +76,7 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
 export const router: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },//sets the homepage
     { path: 'home', component: HomeComponent },
+    { path: 'reset_password', component: ResetPasswordComponent },
     { path: 'signup', component: SignupComponent },
     { path: 'email_auth', component: EmailAuthComponent},
     { path: 'members', component: MembersComponent, canActivate: [AuthGuard] },

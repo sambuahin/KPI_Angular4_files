@@ -43,8 +43,29 @@ navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
      border-color: #ffffff;
 }
 
+a.nav-link.lg{
+    font-weight: 700;
+    color: #1976D2;
+}
+
+a.nav-link.lg span{
+  background-color: #FFC107;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .navbar-toggler-icon {
 margin-left: 90%;
+}
+.nav-link.active{
+    color: #ffffff!important;
+}
+.nav-pills .nav-link.active{
+    background-color: #2196F3;
+}
+.nav-link {
+    display: block;
+    padding: .2em 1em;
 }
 /*
 colors
