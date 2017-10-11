@@ -7,7 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
+//import { LoginComponent } from './login/login.component';
 import { EmailComponent } from './email/email.component';
 import { SignupComponent } from './signup/signup.component';
 import { MembersComponent } from './members/members.component';
@@ -75,7 +75,7 @@ import { Day63Component } from './day6-3/day6-3.component';
 import { Day64Component } from './day6-4/day6-4.component';
 import { Day65Component } from './day6-5/day6-5.component';
 import { Day66Component } from './day6-6/day6-6.component';
-import { ResetPasswordComponent } from './reset-password/reset-password.component';
+//import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 
 
@@ -93,7 +93,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent,
+   // LoginComponent,
     EmailComponent,
     SignupComponent,
     MembersComponent,
@@ -158,8 +158,8 @@ export const firebaseConfig = {
     Day63Component,
     Day64Component,
     Day65Component,
-    Day66Component,
-    ResetPasswordComponent
+    Day66Component//,
+    //ResetPasswordComponent
 
   ],
   imports: [

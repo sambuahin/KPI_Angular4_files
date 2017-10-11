@@ -8,23 +8,23 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner" role="listbox" >
-    <div class="carousel-item active"> <a class="ln" href="/five_christain_persuasions">
+    <div class="carousel-item active"> <a class="ln" (click)="five_christian()">
       <img class="d-block img-fluid" src="assets/images/slides/slide1.jpg" alt="First slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" href="/five_christain_persuasions">
+      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
     <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
     <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
   </div>
     </div>
-    <div class="carousel-item"><a class="ln" href="/five_christain_persuasions">
+    <div class="carousel-item"><a class="ln" (click)="five_christian()">
       <img class="d-block img-fluid" src="assets/images/slides/slide2.jpg" alt="Second slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" href="/five_christain_persuasions">
+      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
        <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
     <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
   </div>
     </div>
-    <div class="carousel-item"><a class="ln" href="/five_christain_persuasions">
+    <div class="carousel-item"><a class="ln" (click)="five_christian()">
       <img class="d-block img-fluid" src="assets/images/slides/slide3.jpg" alt="Third slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" href="/five_christain_persuasions">
+      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
        <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
     <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
   </div>
@@ -48,27 +48,27 @@
 
   <div class="row"> 
     <div class="col-md-3">
- <a class="small_image" href="/the_God_factor"><img class="small_front_img" src="assets/images/milky.jpg" style="width:100%">
+ <a class="small_image" (click)="the_God_factor()"><img class="small_front_img" src="assets/images/milky.jpg" style="width:100%">
             <div class="text_overlay">
               <span>The God factor in church tithing</span></div>
           </a>
 
     </div>
      <div class="col-md-3">
-<a class="small_image"  href="/the_abraham_factor"><img class="small_front_img" src="assets/images/outside.jpg" style="width:100%">
+<a class="small_image"  (click)="the_abraham_factor()"><img class="small_front_img" src="assets/images/outside.jpg" style="width:100%">
             <div class="text_overlay">
               <span>The Abraham factor in church tithing</span></div>
           </a>
 
      </div>
       <div class="col-md-3">
-        <a class="small_image" href="/the_growth_factor"><img class="small_front_img" src="assets/images/growth.jpg" style="width:100%">
+        <a class="small_image" (click)="the_growth_factor()"><img class="small_front_img" src="assets/images/growth.jpg" style="width:100%">
             <div class="text_overlay">
               <span>The Growth factor in church tithing</span></div>
           </a>
       </div>
        <div class="col-md-3">
-         <a class="small_image" href="/how_i_grow"><img class="small_front_img" src="assets/images/phone_hand.jpg" style="width:100%">
+         <a class="small_image" (click)="how_i_grow()"><img class="small_front_img" src="assets/images/phone_hand.jpg" style="width:100%">
             <div class="text_overlay">
               <span>How I grow in my loving relationship with God</span></div>
           </a>
@@ -88,11 +88,11 @@
        <div class="col-md-6">
          <div class="row">
            <div class="col-sm-12">  <div class="chart_image">
-           <a href="/Gods_rubric">
+           <a (click)="God_rubric()">
           <img src="assets/images/chart2.jpg" class="oval_pic"></a></div></div>
          </div>
           <div class="row">
-           <div class="col-sm-12"><a href="/Gods_rubric">
+           <div class="col-sm-12"><a (click)="God_rubric()">
                  <h3 class="bib_text_1">The God’s Rubric for Church Tithing</h3></a></div>
          </div>
            <div class="row">
@@ -104,10 +104,10 @@
        
         <div class="col-md-6">
           <div class="row">
-            <div class="col-sm-12"> <div class="chart_image"><a href="/biblical_assumption_of_giving"><img src="assets/images/chart1.jpg" class="oval_pic"></a></div></div>
+            <div class="col-sm-12"> <div class="chart_image"><a (click)="biblical_assumption()"><img src="assets/images/chart1.jpg" class="oval_pic"></a></div></div>
           </div>
            <div class="row">
-           <div class="col-sm-12"><a href="/biblical_assumption_of_giving">
+           <div class="col-sm-12"><a (click)="biblical_assumption()">
                   <h3 class="bib_text_1">The Biblical Assumption of Giving</h3></a></div>
          </div>
            <div class="row">
@@ -149,7 +149,7 @@
               <div class="row">
                 <div class="col-sm-12">
                   <div class="sm_btn">
-                    <button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button>
+                    <!--button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button-->
 
                   </div>
                 </div>
@@ -263,8 +263,11 @@
                     </p>
                     <div class="row">
                       <div class="col-md-12">
-                        <div class="sm_btn">
-                          <button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button>
+                        <div class="">
+                            <div class="sec_two_text_1">
+              <h2 class="bib_text">APP Coming Soon!!</h2>
+            </div>
+                          <!--button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button-->
                         </div>
                       </div>
                     </div>
@@ -322,7 +325,7 @@
 
 </section-->
 
-<section class="blue_bg">
+<!--section class="blue_bg">
  <div class="row">
       <div class="col-md-12">
         <div class="center_text">
@@ -330,13 +333,21 @@
         </div>
       </div>
     </div>
-</section>
+</section-->
 
 <div class="module1" style="background-image: url('assets/images/bg_parallax.jpg');">
  <div class="outer">
           <div class="middle">
             <div class="inner1">
+               <div class="row">
+     
+        <div class="">
+           <div><h1 class="five_per1">Paradigm Shift</h1></div>
+        </div>
+      
+    </div>
   <div class="text_over">
+    
     <div><h1 class="five_per">
       New Way
     </h1>
@@ -367,7 +378,7 @@
           to grow in our trusting and loving relations with God.<br>
         Tithing to Grow in Christ comes out of Abraham’s tithing, which was followed by growth in his trusting and loving
           relations with God, and in being holier to Him.<br>
-       Tithing to Grow in Christ makes it necessary to have a quality devotional time with God regarding the <a href="five_christain_persuasions">Five Persuasions
+       Tithing to Grow in Christ makes it necessary to have a quality devotional time with God regarding the <a class="a_link"(click)="five_christian()">Five Persuasions
           of Church Tithing</a>, before we give the tithes at church.<br>
        The diligence we give to the ritual of having a prior quality devotional time with God regarding the Five Persuasions
           of Church Tithing is how we make the giving of our tithes count for growth in our trusting and loving relations

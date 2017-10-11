@@ -12,6 +12,9 @@ export class Day3DonateComponent implements OnInit {
     error: any;
 
   constructor() { }
+   onClickMe(){
+    
+  }
 
   ngOnInit() {
   }

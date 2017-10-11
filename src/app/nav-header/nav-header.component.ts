@@ -86,10 +86,27 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
     }
   }
 
+  about_us()
+  {
+this.router.navigate(['/about_us']);
+  }
+ 
+  members()
+  {
+    this.router.navigate(['/members']);
+  }
+  faqs()
+{
+    this.router.navigate(['/faqs']);
+  }
 
  logout() {
      this.af.auth.logout();
      this.router.navigateByUrl('/');
+  }
+  donations()
+  {
+    this.router.navigate(['/donations']);
   }
 
   homeRedirect()
@@ -97,6 +114,7 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
     this.isCollapsed = true;
     this.router.navigate(['/']);
   }
+
 
   ngOnDestroy()
   {

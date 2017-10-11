@@ -1,3 +1,6 @@
+.a_link {
+    color: #2980b9!important;
+}
 .oval_pic{
     border-radius: 125px;
     width: 250px;
@@ -84,8 +87,8 @@
  text-align: left;
 }
 #sec_three{
-    padding: 2rem 0 0;
-     background-color: white;
+    padding: 2rem 0 2rem;
+     background-color: #ececec;
 }
 
 #sec_four{
@@ -95,6 +98,7 @@
 }
 #sec_grad{
 background: linear-gradient(#ffffff, #BBDEFB);/*#D6EFFA);*/
+padding: 0 0 2rem;
 }
 
 #sec_five{
@@ -240,7 +244,7 @@ color: #4CAF50;
 
 .module1 {
   width: 100%;
-  height: 400px;
+  height: 450px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -358,4 +362,12 @@ font-size: 56px!important;
 }
 .blue_bg{
     background-color: #BBDEFB;
+    border-top: solid 1px #bdc3c7;
+
+}
+
+.five_per1
+{
+    font-size: 4rem;
+    text-align: left;
 }

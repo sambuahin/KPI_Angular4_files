@@ -13,6 +13,9 @@ export class Day65Component implements OnInit {
     error: any;
 
   constructor() { }
+   onClickMe(){
+    
+  }
 
   ngOnInit() {
   }
