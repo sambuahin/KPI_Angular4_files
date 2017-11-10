@@ -20,7 +20,7 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
   public currentUser: CurrentUserModel;
   userSubscription;
 
-  constructor(private af: AngularFire, private router: Router) { 
+  constructor(private af: AngularFire, private router: Router) {
      this.isCollapsed = true;
     this.currentUser = new CurrentUserModel(null, null, null);
     //this.currentUser = new CurrentUserModel(null, null, null);
@@ -31,18 +31,18 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
      this.af.auth.subscribe(auth => {
       this.authStatus = auth;
       if (auth == null)
-      { 
-        this.loginLogoutLink = 'Login'; 
-       
+      {
+        this.loginLogoutLink = 'Login';
+
       }
       else
       {
         this.loginLogoutLink = 'Logout';
- 
+
         // get the current users data here
         this.currentUser.uid = auth.auth.uid;
         this.userSubscription = this.af.database.object(`/users/${auth.auth.uid}`).subscribe(snapshot => {
-  
+
           this.currentUser.name = snapshot['name'];
         });
       }
@@ -65,9 +65,9 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
       }
     });
       this.nm= 'Logout: '+ this.name.auth.email;
-      
+
       this.loginLogoutLink = this.nm;
-      
+
     }
   }
 
@@ -90,24 +90,14 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
   {
 this.router.navigate(['/about_us']);
   }
- 
-  members()
-  {
-    this.router.navigate(['/members']);
-  }
-  faqs()
-{
-    this.router.navigate(['/faqs']);
-  }
+
+
 
  logout() {
      this.af.auth.logout();
      this.router.navigateByUrl('/');
   }
-  donations()
-  {
-    this.router.navigate(['/donations']);
-  }
+
 
   homeRedirect()
   {

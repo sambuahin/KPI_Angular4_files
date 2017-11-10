@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { moveIn, fallIn, moveInLeft, moveInRight} from '../router.animations';
 
 @Component({
   selector: 'app-about-us',
@@ -6,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent implements OnInit {
+    state: string = '';
+    error: any;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }

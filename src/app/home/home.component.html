@@ -1,391 +1,560 @@
 
 <section id="first_sec" [@fallIn]="state">
+<div class="container theme-showcase" role="main">
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox" >
-    <div class="carousel-item active"> <a class="ln" (click)="five_christian()">
-      <img class="d-block img-fluid" src="assets/images/slides/slide1.jpg" alt="First slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
-    <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
-    <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h1><i class="fa fa-cog"></i>&nbsp;UI Toolkit</h1>
+    <p>Continental Tires UI toolkit is a collection of web components embeded together in a most efficient and performant way.
+      Toolkit stack is consist of:
+    </p><ul>
+        <li>Bootstrap 3.3.x as UI framework</li>
+        <li>Font-awesome 4.3.x as Icon library</li>
+        <li>Less for CSS compilation</li>
+        <li>Nodejs, NPM and Grunt for build</li>
+      </ul>
+      <p></p>
   </div>
-    </div>
-    <div class="carousel-item"><a class="ln" (click)="five_christian()">
-      <img class="d-block img-fluid" src="assets/images/slides/slide2.jpg" alt="Second slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
-       <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
-    <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
+
+
+  <div class="page-header">
+    <h1>Buttons</h1>
   </div>
-    </div>
-    <div class="carousel-item"><a class="ln" (click)="five_christian()">
-      <img class="d-block img-fluid" src="assets/images/slides/slide3.jpg" alt="Third slide"></a>
-      <div class="carousel-caption d-none d-md-block"><a class="ln" (click)="five_christian()">
-       <h3><span>THE FIVE CHRISTIAN</span><br> PERSUASIONS OF CHURCH TITHING</h3>
-    <p>Making the giving of your tithes count <br>in your growth in Christ</p></a>
+  <p>
+    <button type="button" class="btn btn-lg btn-default">Default</button>
+    <button type="button" class="btn btn-lg btn-primary">Primary</button>
+    <button type="button" class="btn btn-lg btn-success">Success</button>
+    <button type="button" class="btn btn-lg btn-info">Info</button>
+    <button type="button" class="btn btn-lg btn-warning">Warning</button>
+    <button type="button" class="btn btn-lg btn-danger">Danger</button>
+    <button type="button" class="btn btn-lg btn-link">Link</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-sm btn-default">Default</button>
+    <button type="button" class="btn btn-sm btn-primary">Primary</button>
+    <button type="button" class="btn btn-sm btn-success">Success</button>
+    <button type="button" class="btn btn-sm btn-info">Info</button>
+    <button type="button" class="btn btn-sm btn-warning">Warning</button>
+    <button type="button" class="btn btn-sm btn-danger">Danger</button>
+    <button type="button" class="btn btn-sm btn-link">Link</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-xs btn-default">Default</button>
+    <button type="button" class="btn btn-xs btn-primary">Primary</button>
+    <button type="button" class="btn btn-xs btn-success">Success</button>
+    <button type="button" class="btn btn-xs btn-info">Info</button>
+    <button type="button" class="btn btn-xs btn-warning">Warning</button>
+    <button type="button" class="btn btn-xs btn-danger">Danger</button>
+    <button type="button" class="btn btn-xs btn-link">Link</button>
+  </p>
+
+
+  <div class="page-header">
+    <h1>Tables</h1>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</section>
 
-
-<section id="first_sec_1">
-  
-<div class="container"> 
-
-  <div class="row"> 
-    <div class="col-md-3">
- <a class="small_image" (click)="the_God_factor()"><img class="small_front_img" src="assets/images/milky.jpg" style="width:100%">
-            <div class="text_overlay">
-              <span>The God factor in church tithing</span></div>
-          </a>
-
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@TwBootstrap</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
-     <div class="col-md-3">
-<a class="small_image"  (click)="the_abraham_factor()"><img class="small_front_img" src="assets/images/outside.jpg" style="width:100%">
-            <div class="text_overlay">
-              <span>The Abraham factor in church tithing</span></div>
-          </a>
+    <div class="col-md-6">
+      <table class="table table-condensed">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-     </div>
-      <div class="col-md-3">
-        <a class="small_image" (click)="the_growth_factor()"><img class="small_front_img" src="assets/images/growth.jpg" style="width:100%">
-            <div class="text_overlay">
-              <span>The Growth factor in church tithing</span></div>
-          </a>
+
+  <div class="page-header">
+  <!--  <h1>Thumbnails</h1>
+  </div>
+  <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">-->
+
+
+  <div class="page-header">
+    <h1>Labels</h1>
+  </div>
+  <h1>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h1>
+  <h2>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h2>
+  <h3>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h3>
+  <h4>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h4>
+  <h5>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h5>
+  <h6>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </h6>
+  <p>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </p>
+
+
+  <div class="page-header">
+    <h1>Badges</h1>
+  </div>
+  <p>
+    <a href="#">Inbox <span class="badge">42</span></a>
+  </p>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+  </ul>
+
+
+  <div class="page-header">
+    <h1>Dropdown menus</h1>
+  </div>
+  <div class="dropdown theme-dropdown clearfix">
+    <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="active"><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+
+  <div class="page-header">
+    <h1>Navs</h1>
+  </div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+  </ul>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+  </ul>
+
+
+  <div class="page-header">
+    <h1>Navbars</h1>
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
       </div>
-       <div class="col-md-3">
-         <a class="small_image" (click)="how_i_grow()"><img class="small_front_img" src="assets/images/phone_hand.jpg" style="width:100%">
-            <div class="text_overlay">
-              <span>How I grow in my loving relationship with God</span></div>
-          </a>
-       </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+
+  <div class="page-header">
+    <h1>Alerts</h1>
   </div>
+  <div class="alert alert-success" role="alert">
+    <strong>Well done!</strong> You successfully read this important alert message.
+  </div>
+  <div class="alert alert-info" role="alert">
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+  </div>
+  <div class="alert alert-warning" role="alert">
+    <strong>Warning!</strong> Best check yo self, you're not looking too good.
+  </div>
+  <div class="alert alert-danger" role="alert">
+    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+  </div>
+
+
+  <div class="page-header">
+    <h1>Progress bars</h1>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete</span></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+    <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+    <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
+  </div>
+
+
+  <div class="page-header">
+    <h1>List groups</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">
+          Cras justo odio
+        </a>
+        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item">Vestibulum at eros</a>
+      </div>
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">
+          <h4 class="list-group-item-heading">List group item heading</h4>
+          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">List group item heading</h4>
+          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">List group item heading</h4>
+          <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </a>
+      </div>
+    </div><!-- /.col-sm-4 -->
+  </div>
+
+
+  <div class="page-header">
+    <h1>Panels</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+    </div><!-- /.col-sm-4 -->
+  </div>
+
+
+  <div class="page-header">
+    <h1>Wells</h1>
+  </div>
+  <div class="well">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+ sed diam eget risus varius blandit sit amet non magna. Lorem ipsum
+dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus
+magna, vel scelerisque nisl consectetur et. Cras mattis consectetur
+purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat
+ porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia
+bibendum nulla sed consectetur.</p>
+  </div>
+
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="Continental%20Tires%20UI%20Toolkit_files/jquery.js"></script>
+<script src="Continental%20Tires%20UI%20Toolkit_files/conti-ui.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="Continental%20Tires%20UI%20Toolkit_files/ie10-viewport-bug-workaround.htm"></script>
+
+
 </div>
 </section>
 <!--end of section one-->
-
-
-<section class="sec_two" >
-
-  <div class="container_1">
-    <div class="row">
-      
-       
-       <div class="col-md-6">
-         <div class="row">
-           <div class="col-sm-12">  <div class="chart_image">
-           <a (click)="God_rubric()">
-          <img src="assets/images/chart2.jpg" class="oval_pic"></a></div></div>
-         </div>
-          <div class="row">
-           <div class="col-sm-12"><a (click)="God_rubric()">
-                 <h3 class="bib_text_1">The God’s Rubric for Church Tithing</h3></a></div>
-         </div>
-           <div class="row">
-           <div class="col-sm-12"> <div class="sec_two_text_3">
-                    Learn about the 4 essential things that God established with Abraham that gives credibility to your practice of Church Tithing.
-                  </div></div>
-         </div>
-       </div>
-       
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-sm-12"> <div class="chart_image"><a (click)="biblical_assumption()"><img src="assets/images/chart1.jpg" class="oval_pic"></a></div></div>
-          </div>
-           <div class="row">
-           <div class="col-sm-12"><a (click)="biblical_assumption()">
-                  <h3 class="bib_text_1">The Biblical Assumption of Giving</h3></a></div>
-         </div>
-           <div class="row">
-           <div class="col-sm-12"><div class="sec_two_text_3">
-                    Learn about the giving of your tithes out of a growing loving relation with God, set on the assumption that the more one
-                    loves, the more one gives, and the less one loves, the less one gives.
-                  </div></div>
-         </div>
-        </div>
-         
-    </div>
-  </div>
-</section>
-
-<section id="sec_three">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7">
-
-        <div class="outer">
-          <div class="middle">
-            <div class="inner">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="sec_two_text">
-                    <h2 class="bib_text">Bernie Speller on five spiritual substances for Tithing to grow in Christ</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="sec_two_text">
-                    Bernnine Speller explains the five plus principles that pastors need to know about the benefits the Tithing to Grow in Christ
-                    devotional offers their local church, when members of their congregation combine using it with the giving
-                    of their tithes.</div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="sm_btn">
-                    <!--button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button-->
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-5">
-        <div class="img_here">
-         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AJCAKWtYq4Q" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--New section-->
-
-
-<section id="sec_grad">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="center_text">
-          <h2 class="your_tithing"><span>YOUR TITHING TO GROW IN CHRIST APP</span></h2>
-        </div>
-        
-      </div>
-    </div>
-    
-
-    <div class="row">
-      <div class="col-md-4">
- <div class="outer">
-          <div class="middle">
-            <div class="inner">
-
-        <!-- here-->
-        <div class="row">
-          <div class="col-md-12">
-            <div class="left_text">
-              <h5>EXCLUSIVELY FOR CHURCH TITHERS</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sec_two_text_1">
-              <h2 class="bib_text">Get the best out of the giving your tithes.</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sec_two_text_2">
-              Before you give your tithes at church, a daily devotional time with God to have fulfilments in the 5 Christian Persuasions
-              of Church Tithing will add to growth in your trusting and loving relations with Him
-            </div>
-          
-          </div>
-        </div>
-            </div>
-          </div>
- </div>
-        <!-- -->
-      </div>
-      <div class="col-md-4">
-        <div class="outer">
-          <div class="middle">
-            <div class="inner">
-        <div class="img_cn_align">
-          <img src="assets/images/iphone7app.png" width="350px" height="">
-        </div>
-            </div></div></div>
-      </div>
-      <div class="col-md-4">
-
-        <div class="outer">
-          <div class="middle">
-            <div class="inner">
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="sec_two_text">
-                    <p>
-                      As a Church tither, Tithing to Grow in Chris is a quality devotional time you'll have with God, before giving your tithes
-                      at church.
-                    </p>The Devotional App is designed to assist you in spiritually relating to God personally in the giving
-                    of your tithes. As you use this devotional guide, before presenting your tithes to God at church, you
-                    wil soon find yourself experiencing seven things. These seven things are as follows:
-
-                    <ul>
-                      <li>
-                        Getting closer to God
-                      </li>
-                      <li>Thinking about God</li>
-                      <li>Praying to God</li>
-                      <li>Reading about God</li>
-                      <li>Honoring God</li>
-                      <li>Giving to God</li>
-                      <li>Hearing from God</li>
-                    </ul>
-
-                    <p>
-                      The whole experience is designed to provide the grounds to grow in your trusting and loving relationship with God, and being
-                      holy to Him.
-                    </p>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="">
-                            <div class="sec_two_text_1">
-              <h2 class="bib_text">APP Coming Soon!!</h2>
-            </div>
-                          <!--button type="button" class="btn btn-primary" (click)="onClickMe()">Try the App today</button-->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!--section id="sec_five">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="center_text">
-          <h2 class="bib_text"><span style="border-bottom: 1px solid gray;">Items of Interest</span></h2>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-users fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>Workshop for local churches</h6></div></div>
-      </div>
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>Contact Us</h6></div></div>
-      </div>
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-users fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>Association of Church Tithers</h6></div></div>
-      </div>
-   
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-bullhorn fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>Publications</h6></div>
-
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-question-circle fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>FAQs</h6></div></div>
-      </div>
-      <div class="col-md-2">
-        <div class="cover_all"><div class="cover_top"><i class="fa fa-refresh fa-3x" aria-hidden="true"></i></div><div class="cover_bot"><h6>Updates</h6></div></div>
-      </div>
-    </div>
-  </div>
-
-</section-->
-
-<!--section class="blue_bg">
- <div class="row">
-      <div class="col-md-12">
-        <div class="center_text">
-          <h2 class="bib_text">Paradigm Shift</h2>
-        </div>
-      </div>
-    </div>
-</section-->
-
-<div class="module1" style="background-image: url('assets/images/bg_parallax.jpg');">
- <div class="outer">
-          <div class="middle">
-            <div class="inner1">
-               <div class="row">
-     
-        <div class="">
-           <div><h1 class="five_per1">Paradigm Shift</h1></div>
-        </div>
-      
-    </div>
-  <div class="text_over">
-    
-    <div><h1 class="five_per">
-      New Way
-    </h1>
-    </div>
-    <div>
-      Before I give my tithe at church, I spend quality time with God, using tithing to grow in Christ devotional App guide.
-    </div>
-  </div></div></div></div>
-</div>
-
-<section id="sec_six">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="center_text">
-          <h2 class="bib_text">Making it Count for Your Christian Growth</h2>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-12">
-        <p class="p_skinny">Traditionally, what we know and are accustomed to in the giving of our tithes is to put the tithes in a designated
-          envelop, and then drop it in whatever is used for the collection. We usually go about this without a prior devotional
-          time with God.<br>
-        Tithing to Grow in Christ is a new approach to the giving of our tithes, which we are to accommodate with the goal
-          to grow in our trusting and loving relations with God.<br>
-        Tithing to Grow in Christ comes out of Abraham’s tithing, which was followed by growth in his trusting and loving
-          relations with God, and in being holier to Him.<br>
-       Tithing to Grow in Christ makes it necessary to have a quality devotional time with God regarding the <a class="a_link"(click)="five_christian()">Five Persuasions
-          of Church Tithing</a>, before we give the tithes at church.<br>
-       The diligence we give to the ritual of having a prior quality devotional time with God regarding the Five Persuasions
-          of Church Tithing is how we make the giving of our tithes count for growth in our trusting and loving relations
-          with God.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</section>

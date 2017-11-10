@@ -3,22 +3,26 @@
 }
 
 .navbar-light .navbar-brand {
-color: #1976D2;
-font-family: 'Lato', sans-serif;
-font-weight: bold;
-font-size: 18px;
+color:#ffffff;
 
 }
 navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
-    box-shadow: 0 3px 5px -1px rgba(0,0,0,.10), 0 6px 10px 0 rgba(0,0,0,.10), 0 1px 18px 0 rgba(0,0,0,.10);
+    border-bottom: 2px;
+    border-bottom-color: #ffa500;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
-    color: #545454;
+    color: orange;
 }
 .navbar-brand {
     display: inline-block;
-    padding-top: 0.1rem;
+    padding-top: 1rem;
     padding-bottom: .59rem;
     margin-right: 1rem;
     font-size: 1.25rem;
@@ -26,30 +30,35 @@ navbar, .navbar-toggleable-md, .navbar-light, .bg-faded {
     white-space: nowrap;
 }
 .bg-faded {
-    background-color: white;
+    background-color:#000000;
     }
 
     .navbar {
     /*overflow: hidden;*/
      z-index: 99;
-    position: fixed; 
-    width: 100%; 
+    position: fixed;
+    width: 100%;
+    padding: 0px 50px;
+    border-bottom: 2px solid orange;
+
     /* Set the navbar to fixed position */
    /* top: 0; /* Position the navbar at the top of the page */
     /* Full width */
+
+
 }
 
 .navbar-light .navbar-toggler {
-     border-color: #ffffff;
+     border-color: #ffa500;
 }
 
 a.nav-link.lg{
     font-weight: 700;
-    color: #1976D2;
+    color:#ffffff;
 }
 
 a.nav-link.lg span{
-  background-color: #FFC107;
+  background-color: #ffa500;
   padding: 5px;
   border-radius: 5px;
 }
@@ -58,15 +67,18 @@ a.nav-link.lg span{
 margin-left: 90%;
 }
 .nav-link.active{
-    color: #ffffff!important;
+    color: #ffa500!important;
+    padding-right: 5px;
 }
 .nav-pills .nav-link.active{
-    background-color: #2196F3;
+    background-color: orange;
 }
 .nav-link {
     display: block;
     padding: .2em 1em;
 }
+
+
 /*
 colors
 orange: #FFC107
@@ -76,3 +88,5 @@ blue: #2196F3
 font-family: 'Cairo', sans-serif;
 
 */
+
+

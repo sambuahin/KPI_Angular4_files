@@ -10,6 +10,7 @@ import { moveIn, fallIn } from '../router.animations';
     animations: [moveIn(), fallIn()]
 })
 export class ContentComponent implements OnInit {
+  state: string = '';
 name: any;
   constructor(public af: AngularFire,private router: Router) { 
 

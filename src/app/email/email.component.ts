@@ -12,7 +12,6 @@ import { moveIn, fallIn } from '../router.animations';
   host: {'[@moveIn]': ''}
 })
 export class EmailComponent implements OnInit {
-
     state: string = '';
     error: any;
 
