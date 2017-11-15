@@ -1,0 +1,58 @@
+<section class ="first" [@fallIn]='state'>
+<div class="container">
+
+        <form class="form-horizontal" role="form" #formData='ngForm' (ngSubmit)="onSubmit(formData)">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="Cre">
+                    <h3>Please Login as analyst</h3>
+                    <hr></div>
+                     <span class="error" *ngIf="error">{{ error }}</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="form-group has-danger">
+                        <label class="sr-only" for="email">E-Mail Address</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+                            <input type="text" name="email" class="form-control" id="email"
+                                   placeholder="Your email address here" (ngModel)="email" required autofocus>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="sr-only" for="password">Password</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+                            <input type="password" name="password" class="form-control" id="password"
+                                   placeholder="Your password here" (ngModel)="password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row" style="padding: 1rem 0 2rem 0;">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-success" [disabled]="!formData.valid"><i class="fa fa-sign-in"></i> Login</button>
+                    <!--a class="btn btn-link" href="/password/reset">Forgot Your Password?</a-->
+                    <!--a routerLink="/signup" class="alc">Don't have an account?</a-->
+
+                </div>
+
+            </div>
+
+        </form>
+           </div>
+
+</section>

@@ -1,0 +1,45 @@
+
+.tp{
+  padding-top:10px;
+}
+.title{
+  background-color:#ecf0f1;
+  padding:10px;
+}
+.klip{
+  height: 350px;
+}
+.top_st{
+   margin-top: 10px;
+  background-color:#3498db;
+  color: #ffffff;
+ margin-left: 0.1px;
+  margin-right: 0.1px;
+}
+.cont{
+  margin-top: 15px;
+  padding: 12px;
+  background-color:#3498db;
+  color: #ffffff;
+}
+
+#my-iframe
+{
+    position : absolute;
+    top      : -54px;
+    left     : -2px;
+    bottom   : 20px;
+    width    : 1087px;
+    height   : 710px;
+}
+
+.boxR{
+  background-color: #ecf0f1;
+  padding: 20px 10px 20px 20px;
+  margin-top:14px;
+  width    : 1087px;
+  height   : 650px;
+  overflow : hidden;
+  position : relative;
+
+}

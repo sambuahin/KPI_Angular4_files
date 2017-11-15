@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
 import { Router } from '@angular/router';
-import { moveIn, fallIn } from '../router.animations';
+import { moveIn, fallIn } from '../../router.animations';
 
 
 @Component({
-  selector: 'app-email-auth',
-  templateUrl: './email-auth.component.html',
-  styleUrls: ['./email-auth.component.css'],
-   animations: [moveIn(), fallIn()]
+  selector: 'app-analyst-email',
+  templateUrl: './analyst-email.component.html',
+  styleUrls: ['./analyst-email.component.css'],
+  animations: [moveIn(), fallIn()]
 })
-export class EmailAuthComponent implements OnInit {
+export class AnalystEmailComponent implements OnInit {
     state: string = '';
     error: any;
 
      constructor(public af: AngularFire,private router: Router) {
-      this.af.auth.subscribe(auth => { 
+      this.af.auth.subscribe(auth => {
         if(auth) {
           this.router.navigateByUrl('/members');
         }
@@ -40,8 +40,8 @@ onSubmit(formData) {
         method: AuthMethods.Password,
       }).then(
         (success) => {
-       // console.log(success);
-        this.router.navigate(['/members']);
+
+        this.router.navigate(['/analyst_welcome']);
       }).catch(
         (err) => {
         console.log(err);

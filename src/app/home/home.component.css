@@ -6,3 +6,156 @@
     box-sizing: border-box;
     min-height:  90vh;
 }
+
+.section3{
+    width: 100%;
+    margin: auto;
+    background-color: #ecf0f1;
+    padding: 70px 0;
+}
+.row1{
+    width: 60%;
+    margin: auto;
+}
+
+.row{
+  margin: auto;
+}
+.Fsection
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.section2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+#r{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.mid_txt{
+
+    text-align: right;
+    text-shadow: 2px 1px 2px #999999;
+        padding-top: 18%;
+}
+
+.fntimg{
+    text-align: center;
+    padding: 2% 0;
+}
+.row_txt{
+text-align: center;
+padding-bottom: 20px;
+
+}
+h2{
+    font-size: 30px;
+}
+
+
+.bigiage{
+      text-align: left;
+      margin-bottom:0;
+      padding-bottom: 0;
+}
+.alngrigth{
+    text-align: right;
+}
+
+.row_txt
+{
+    text-align: center;
+    color: orange;
+    font-size: 2.7rem;
+    text-shadow: 2px 1px 2px #999999;
+    letter-spacing: 2px;
+}
+
+.wrapper{
+    width: 30%;
+    margin: auto;
+    padding-top: 120px 20px!important;
+    margin-top: 130px;
+
+}
+
+.left{
+    float:left;
+    width: 30%;
+
+}
+
+.right{
+    float: right;
+    width: 70%;
+}
+
+.footer{
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+}
+.wrap{
+    margin: auto;
+}
+
+.top_text
+{
+font-size: 2.2rem;
+letter-spacing: 1px;
+}
+.bt_text
+{
+font-size: 1.7rem;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.bt_text1
+{
+font-size: 2rem;
+letter-spacing: 3px;
+}
+
+.imgText{
+    padding: 5% 0 2%;
+    font-size: 2rem;
+}
+
+
+/*
+.loading:after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background: #E2E4E6;
+  top: 10px;
+  left: -5px;
+  animation: spin 1.2s infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+
+
+/* iPad [portrait + landscape] */
+
+body
+{
+
+  color: #ffffff;
+  font-size: 0.9rem;
+}

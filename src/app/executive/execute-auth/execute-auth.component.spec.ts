@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EmailAuthComponent } from './email-auth.component';
+import { ExecuteAuthComponent } from './execute-auth.component';
 
-describe('EmailAuthComponent', () => {
-  let component: EmailAuthComponent;
-  let fixture: ComponentFixture<EmailAuthComponent>;
+describe('ExecuteAuthComponent', () => {
+  let component: ExecuteAuthComponent;
+  let fixture: ComponentFixture<ExecuteAuthComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EmailAuthComponent ]
+      declarations: [ ExecuteAuthComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EmailAuthComponent);
+    fixture = TestBed.createComponent(ExecuteAuthComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

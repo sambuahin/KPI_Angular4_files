@@ -1,8 +1,6 @@
 import { Component, OnInit, DoCheck, OnDestroy } from '@angular/core';
-//import { CollapseDirective } from 'ng2-bootstrap';
 import { Router } from '@angular/router';
 import { CurrentUserModel} from 'models/current-user-model';
-//import {LoginRegisterModel} from 'models/login-register-model';
 import { AngularFire, AuthProviders, AuthMethods,FirebaseAuthState } from 'angularfire2';
 
 @Component({
@@ -23,7 +21,6 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
   constructor(private af: AngularFire, private router: Router) {
      this.isCollapsed = true;
     this.currentUser = new CurrentUserModel(null, null, null);
-    //this.currentUser = new CurrentUserModel(null, null, null);
 
   }
 
@@ -76,7 +73,7 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
     this.isCollapsed = true;
     if(this.loginLogoutLink === 'Login/Signup')
     {
-      this.router.navigate(['/email_auth']);
+      this.router.navigate(['/analyst_email']);
     }
     else
     {

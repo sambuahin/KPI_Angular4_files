@@ -16,38 +16,17 @@ font-family: 'Ubuntu', sans-serif;
 
 */
 
-
-
-
-/*
-.loading:after {
-  content: '';
-  position: absolute;
-  width: 40px;
-  height: 10px;
-  background: #E2E4E6;
-  top: 10px;
-  left: -5px;
-  animation: spin 1.2s infinite;
+.container{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
+body{
+    background-color: #ffffff!important;
+    color: #666666;
 }
-*/
 
-
-
-/* iPad [portrait + landscape] */
-
-body
-{
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 0.9rem;
-}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
 

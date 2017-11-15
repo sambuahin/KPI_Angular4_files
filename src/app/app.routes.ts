@@ -11,7 +11,12 @@ import { ContentMenuComponent } from './content-menu/content-menu.component';
 import { Day1Component } from './day1/day1.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { EmailAuthComponent } from './email-auth/email-auth.component';
+import { AnalystEmailComponent } from './analyst/analyst-email/analyst-email.component';
+import { ExecuteAuthComponent } from './executive/execute-auth/execute-auth.component';
+import { ExecutiveWelcomeComponent } from './executive/executive-welcome/executive-welcome.component';
+import { ExeCharlotteComponent } from './executive/executive_time_to_fill/exe-charlotte/exe-charlotte.component';
+import { MainTtfComponent } from './executive/executive_time_to_fill/main-ttf/main-ttf.component';
+
 
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 
@@ -20,17 +25,20 @@ export const router: Routes = [
     { path: 'home', component: HomeComponent },
 
     { path: 'signup', component: SignupComponent },
-    { path: 'email_auth', component: EmailAuthComponent},
-    { path: 'members', component: MembersComponent, canActivate: [AuthGuard] },
-    { path: 'content', component: ContentComponent, canActivate: [AuthGuard],
-
-    children: [
-          { path: '', redirectTo: 'day1', pathMatch: 'full' },
-       /*   { path: 'acts', component: ACTsComponent} ,*/
-
-        ]
-
- },
+     { path: 'analyst_email', component:  AnalystEmailComponent },
+     { path: 'executive_auth', component:  ExecuteAuthComponent },
+     { path: 'executive_welcome', component: ExecutiveWelcomeComponent, canActivate: [AuthGuard],
+          children: [
+          { path: '', redirectTo: 'main_ttf', pathMatch: 'full' },
+          { path: 'main_ttf', component: MainTtfComponent },
+          { path: 'exe_charlotte', component: ExeCharlotteComponent }
+         ]
+  },
+     { path: 'content', component: ContentComponent, canActivate: [AuthGuard],
+        children: [
+          { path: '', redirectTo: 'day1', pathMatch: 'full' }
+         ]
+        },
     { path: 'about_us', component: AboutUsComponent },
     { path: '**', component: PageNotFoundComponent }
 ];

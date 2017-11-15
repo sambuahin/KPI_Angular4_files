@@ -18,7 +18,13 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
-import { EmailAuthComponent } from './email-auth/email-auth.component';
+
+import { AnalystEmailComponent } from './analyst/analyst-email/analyst-email.component';
+import { ExecuteAuthComponent } from './executive/execute-auth/execute-auth.component';
+import { ExecutiveWelcomeComponent } from './executive/executive-welcome/executive-welcome.component';
+import { ExeCharlotteComponent } from './executive/executive_time_to_fill/exe-charlotte/exe-charlotte.component';
+import { MainTtfComponent } from './executive/executive_time_to_fill/main-ttf/main-ttf.component';
+
 
 // Must export the config
 export const firebaseConfig = {
@@ -44,11 +50,11 @@ export const firebaseConfig = {
     PageNotFoundComponent,
     AboutUsComponent,
     FooterComponent,
-    EmailAuthComponent
-
-
-
-
+    AnalystEmailComponent,
+    ExecuteAuthComponent,
+    ExecutiveWelcomeComponent,
+    ExeCharlotteComponent,
+    MainTtfComponent
   ],
   imports: [
     BrowserModule,

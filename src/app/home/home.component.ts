@@ -19,4 +19,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  execute_auth()
+  {
+this.router.navigate(['/executive_auth']);
+  }
+
 }

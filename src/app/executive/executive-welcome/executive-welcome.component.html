@@ -1,0 +1,72 @@
+
+<section id="first_sec" [@fallIn]="state">
+<div class="container" >
+<div class="left">
+  <div class="left_side">
+  <div class="list-group">DEPARTMENTS</div>
+
+<!--div class="content">
+<ul class="list-group">
+  <li class="list-group-item active">TIME TO FILL</li>
+  <li class="list-group-item">Charlotte/FortMill</li>
+  <li class="list-group-item">Sumter</li>
+  <li class="list-group-item">Auburn Hills North</li>
+
+</ul>
+
+</div-->
+
+<div class="content">
+<div id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Time to fill
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+    <ul class="list-group">
+  <li class="list-group-item"> <a [routerLink]="['/executive_welcome/exec_charlotte']">Charlotte/FortMill</a> </li>
+  <li class="list-group-item">Sumter</li>
+  <li class="list-group-item">Auburn Hills North</li>
+
+</ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Offer acceptance rate
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+     <ul class="list-group">
+  <li class="list-group-item">Charlotte/FortMill</li>
+  <li class="list-group-item">Sumter</li>
+  <li class="list-group-item">Auburn Hills North</li>
+
+</ul>
+    </div>
+  </div>
+
+</div>
+</div>
+
+  </div>
+
+
+
+</div>
+<div class="right">
+  <div class="right_side">
+<router-outlet></router-outlet>
+  </div>
+
+</div>
+</div>
+</section>
