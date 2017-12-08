@@ -15,7 +15,9 @@ font-family: 'Ubuntu', sans-serif;
 
 
 */
-
+.row{
+  margin: auto;
+}
 .container{
     width: 100%;
     padding-left: 0;

@@ -51,7 +51,7 @@ export class NavHeaderComponent implements OnInit,DoCheck, OnDestroy {
   {
     if(this.authStatus == null)
     {
-      this.loginLogoutLink = 'Login/Signup';
+      this.loginLogoutLink = '';
     }
     else
     {

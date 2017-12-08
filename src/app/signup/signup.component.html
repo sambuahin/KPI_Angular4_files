@@ -1,8 +1,8 @@
 <section class="first" [@fallIn]='state'>
 <div class="container">
-  <a routerLink="/email_auth" id="goback">Go back</a>
+  <!--a routerLink="/email_auth" id="goback">Go back</a-->
   <span class="error" *ngIf="error" >{{ error }}</span>
-    
+
   <!--form #formData='ngForm' (ngSubmit)="onSubmit(formData)"-->
 
     <!--input type="text" placeholder="First Name.." (ngModel)="name" name="name" class="txt" required-->
@@ -53,17 +53,17 @@
                 </div>
                 <div class="col-md-3"></div>
             </div>
-  
+
             <div class="row" style="padding-top: 1rem">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <button type="submit" class="btn btn-success" [disabled]="!formData.valid"><i class="fa fa-sign-in"></i> Create my account</button>
-                         <a routerLink="/email_auth" class="alc">Already have an account? Login</a>     
-                   
+                         <a (click)="execute_auth()" class="alc">Already have an account? Login</a>
+
                 </div>
-                
+
             </div>
 
-     
+
         </form>
 </div></section>

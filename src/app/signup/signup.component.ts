@@ -38,5 +38,9 @@ export class SignupComponent implements OnInit {
 
   ngOnInit() {
   }
+  execute_auth()
+  {
+this.router.navigate(['/executive_auth']);
+  }
 
 }
